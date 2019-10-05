@@ -1,2 +1,4 @@
-# detective-linux
-Another Cybersecurity Distribution 
+# Detective Linux
+
+  $ chmod +x build.sh
+  $ ./build.sh
