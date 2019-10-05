@@ -3,7 +3,7 @@
 # [Package]: build.sh
 # [Release]: Detective Linux Code Pikatchu v0.0.1 Prototype
 # [Website]: http://ethical-hacking-resources.com
-# [Version]: Pikatchu v1.0.1 Prototype
+# [Version]: Pikatchu v0.0.1 Prototype
 # [License]: http://www.gnu.org/licenses/gpl-3.0.html
 
 YELLOW="\e[33m"
