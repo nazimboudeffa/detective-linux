@@ -27,3 +27,5 @@ function set_banner
 	echo
 	sleep 10s
 }
+
+set_banner
