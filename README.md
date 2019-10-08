@@ -1,5 +1,7 @@
 # Detective Linux
 
+    $ sudo apt-get install git
+    $ git clone https://github.com/nazimboudeffa/detective-linux.git
     $ chmod +x build.sh
     $ ./build.sh
 

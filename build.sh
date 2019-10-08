@@ -1,9 +1,9 @@
 #!/bin/bash
 #
 # [Package]: build.sh
-# [Release]: Detective Linux Code Pikatchu v0.0.1 Prototype
+# [Release]: Detective Linux Code Pikachu v0.0.1 Prototype
 # [Website]: http://ethical-hacking-resources.com
-# [Version]: Pikatchu v0.0.1 Prototype
+# [Version]: Pikachu v0.0.1 Prototype
 # [License]: http://www.gnu.org/licenses/gpl-3.0.html
 
 YELLOW="\e[33m"
@@ -19,7 +19,7 @@ function set_banner
   echo -e "${YELLOW}| |__| |  __/ ||  __/ (__| |_| |\ V /  __/ | |____| | | | | |_| |>  < \e[0m"
   echo -e "${YELLOW}|_____/ \___|\__\___|\___|\__|_| \_/ \___| |______|_|_| |_|\__,_/_/\_\\e[0m"
   echo -e "${YELLOW}                                                                      \e[0m"
-  echo -e "${YELLOW}                                                Code Pikatchu v0.0.1  \e[0m"
+  echo -e "${YELLOW}                                                Code Pikachu v0.0.1  \e[0m"
   echo
   echo -e "${ORANGE} [i] [Package]: build.sh\e[0m"
   echo -e "${ORANGE} [i] [Website]: http://ethical-hacking-resources.com\e[0m"
@@ -29,3 +29,12 @@ function set_banner
 }
 
 set_banner
+
+# Ruby
+sudo -v apt -y install ruby ruby-dev bundler
+
+# Gem Packages
+sudo -v gem install mime-types mini_exiftool rake rubyzip snmp spider
+
+# wp scanner
+gem install wpscan
