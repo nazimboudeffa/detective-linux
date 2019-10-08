@@ -16,3 +16,6 @@ You have to use it in this sense otherwise we are not responsible for any other 
 If you don't know what you are doing please STOP! And don't open an issue to tell me that it has errased your folders or has crashed your computer.
 
 Please read the script and everything will be okey.
+
+# REFS
+https://bash.cyberciti.biz/guide/Menu_driven_scripts
