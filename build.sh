@@ -14,14 +14,14 @@ STD='\033[0;0;39m'
 function set_banner
 {
 	clear
-  echo -e "${YELLOW} _____       _            _   _             _      _                  \e[0m"
-  echo -e "${YELLOW}|  __ \     | |          | | (_)           | |    (_)                 \e[0m"
-  echo -e "${YELLOW}| |  | | ___| |_ ___  ___| |_ ___   _____  | |     _ _ __  _   ___  __\e[0m"
-  echo -e "${YELLOW}| |  | |/ _ \ __/ _ \/ __| __| \ \ / / _ \ | |    | | '_ \| | | \ \/ /\e[0m"
-  echo -e "${YELLOW}| |__| |  __/ ||  __/ (__| |_| |\ V /  __/ | |____| | | | | |_| |>  < \e[0m"
-  echo -e "${YELLOW}|_____/ \___|\__\___|\___|\__|_| \_/ \___| |______|_|_| |_|\__,_/_/\_\ \e[0m"
-  echo -e "${YELLOW}                                                                      \e[0m"
-  echo -e "${YELLOW}                                                Code Pikachu v0.0.1  \e[0m"
+  echo -e "${YELLOW} _____       _            _   _             _      _                   ${STD}"
+  echo -e "${YELLOW}|  __ \     | |          | | (_)           | |    (_)                  ${STD}"
+  echo -e "${YELLOW}| |  | | ___| |_ ___  ___| |_ ___   _____  | |     _ _ __  _   ___  __ ${STD}"
+  echo -e "${YELLOW}| |  | |/ _ \ __/ _ \/ __| __| \ \ / / _ \ | |    | | '_ \| | | \ \/ / ${STD}"
+  echo -e "${YELLOW}| |__| |  __/ ||  __/ (__| |_| |\ V /  __/ | |____| | | | | |_| |>  <  ${STD}"
+  echo -e "${YELLOW}|_____/ \___|\__\___|\___|\__|_| \_/ \___| |______|_|_| |_|\__,_/_/\_\ ${STD}"
+  echo -e "${YELLOW}                                                                       ${STD}"
+  echo -e "${YELLOW}                                                Code Pikachu v0.0.1    ${STD}"
   echo
   echo -e "${ORANGE} [Package]: build.sh\e[0m"
   echo -e "${ORANGE} [Website]: http://ethical-hacking-resources.com\e[0m"
@@ -48,7 +48,7 @@ one(){
 	echo "one() called"
         pause
 }
- 
+
 two(){
 	echo "two() called"
         pause
@@ -60,7 +60,7 @@ install_sqlmap(){
 	echo "SQLMAP is in your /tmp folder"
 	pause
 }
- 
+
 # function to display menus
 
 show_menus() {
@@ -86,11 +86,11 @@ read_options(){
 		*) echo -e "${RED}Error...${STD}" && sleep 2
 	esac
 }
- 
+
 trap '' SIGINT SIGQUIT SIGTSTP
 
 set_banner
- 
+
 while true
 do
 	show_menus
